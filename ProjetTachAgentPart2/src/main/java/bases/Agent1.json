@@ -1,0 +1,95 @@
+{
+    "shop_name":"magasin1",
+    "ventes":[
+        {
+            "categorie":"pc",
+            "features_pc":[
+            {
+                "num_pc":1,
+                "marque":"asus",
+                "carte_graphique": "nvidia",
+                "taille_ecran": 15,
+                "processeur": "i7",
+                "disque_dur": "ssd",
+                "ram":16,
+                "prix" : 150000,
+                "quantity": 1
+            },
+            {
+                "num_pc":2,
+                "marque":"acer",
+                "carte_graphique": "intel",
+                "taille_ecran": 14,
+                "processeur": "i5",
+                "disque_dur": "ssd",
+                "ram":8,
+                "prix" : 60000,
+                "quantity": 3
+                },
+                {
+                "num_pc":3,
+                "marque":"hp",
+                "carte_graphique": "nvidia",
+                "taille_ecran": 15,
+                "processeur": "i5",
+                "disque_dur": "ssd",
+                "ram":16,
+                "prix" : 100000,
+                "quantity": 2
+                }
+            ]
+        },
+        {
+            "categorie":"carte_graphique",
+            "features_carte_graphique":[
+                {
+                    "num_carte":1,
+                    "marque":"intel",
+                    "utilisation":["Personnel", "bureau"],
+                    "quantity": 3,
+                    "prix":5000
+                }
+            ]
+        },
+        {
+            "categorie":"ram",
+            "features_ram":[
+                {
+                    "num_ram":1,
+                    "marque": "samsung",
+                    "taille":8,
+                    "quantity":5,
+                    "prix":7000
+                },
+                {
+                    "num_ram":2,
+                    "marque": "sHynix",
+                    "taille":16,
+                    "quantity":3,
+                    "prix":12000
+                }
+            ]
+        },
+        {
+            "categorie":"disque_dur",
+            "features_disc":[
+                {
+                    "num_disque":1,
+                    "marque":"toshiba",
+                    "type":"ssd",
+                    "taille":225,
+                    "quantity":1,
+                    "prix":15000
+                },
+                {
+                    "num_disque":2,
+                    "marque":"samsung",
+                    "type":"hdd",
+                    "taille":1000,
+                    "quantity":3,
+                    "prix":15000
+                }
+            ]
+        }
+    ]
+}
