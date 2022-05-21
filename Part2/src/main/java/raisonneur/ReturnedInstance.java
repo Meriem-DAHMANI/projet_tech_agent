@@ -1,4 +1,4 @@
-package raisoneur;
+package raisonneur;
 
 import org.json.JSONObject;
 

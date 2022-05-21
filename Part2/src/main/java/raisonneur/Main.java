@@ -1,4 +1,4 @@
-package raisoneur;
+package raisonneur;
 
 import org.json.JSONArray;
 import org.json.JSONObject;
@@ -7,10 +7,8 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.nio.file.Files;
-import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
-import java.util.HashMap;
 
 public class Main {
 
@@ -34,7 +32,7 @@ public class Main {
 
         ArrayList<ReturnedInstance> rt = Raisonneur.raisonner(jsonObject,"pc",  facts);
         JSONArray j = Raisonneur.toJson(rt);
-        System.out.println(j);
+        System.out.println(String.valueOf(j));
 
     }
 }
