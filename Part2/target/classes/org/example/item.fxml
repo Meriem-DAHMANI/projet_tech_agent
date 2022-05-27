@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.shape.Ellipse?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="200.0" prefWidth="156.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Item">
+   <children>
+      <Ellipse layoutX="74.0" layoutY="84.0" radiusX="78.0" radiusY="100.0" strokeType="INSIDE">
+         <stroke>
+            <LinearGradient endX="1.0" endY="0.3857142857142857" startX="0.8333333333333333" startY="0.22857142857142856">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.30263158679008484" green="0.2115618884563446" blue="0.2115618884563446" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="1.0" green="1.0" blue="1.0" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <fill>
+            <LinearGradient endX="0.46190476190476193" endY="0.5476190476190476" startX="0.7619047619047619" startY="1.0">
+               <stops>
+                  <Stop>
+                     <color>
+                        <Color red="0.30263158679008484" green="0.2115618884563446" blue="0.2115618884563446" />
+                     </color>
+                  </Stop>
+                  <Stop offset="1.0">
+                     <color>
+                        <Color red="0.5400000214576721" green="0.4860000014305115" blue="0.4860000014305115" opacity="0.38796934485435486" />
+                     </color>
+                  </Stop>
+               </stops>
+            </LinearGradient>
+         </fill></Ellipse>
+      <VBox alignment="TOP_CENTER" layoutX="50.0" prefHeight="200.0" prefWidth="156.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <HBox prefHeight="49.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="magasinLabel" prefHeight="31.0" prefWidth="162.0" text="Elbadr      ">
+                     <font>
+                        <Font name="FreeSans Bold" size="13.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="quantityHiding" text="Label" visible="false" />
+                  <Label fx:id="catHiding" text="Label" visible="false" />
+                  <Label fx:id="idHiding" text="Label" visible="false" />
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="marqueLabel" prefHeight="41.0" prefWidth="126.0" text="Asus">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="13.0" />
+                     </font>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox prefHeight="49.0" prefWidth="200.0">
+               <children>
+                  <Label fx:id="prixLbel" prefHeight="49.0" prefWidth="80.0" text="150000DA">
+                     <font>
+                        <Font name="System Bold" size="11.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="10.0" />
+                     </padding>
+                  </Label>
+               </children>
+               <VBox.margin>
+                  <Insets left="20.0" right="20.0" />
+               </VBox.margin>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox prefHeight="38.0" prefWidth="160.0">
+               <children>
+                  <Label prefHeight="26.0" prefWidth="86.0" text="Quantity">
+                     <font>
+                        <Font name="DejaVu Serif Bold" size="13.0" />
+                     </font></Label>
+                  <TextField fx:id="quantity" accessibleRole="INCREMENT_BUTTON" prefHeight="24.0" prefWidth="48.0" text="1" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="10.0" left="20.0" right="20.0" />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="44.0" prefWidth="200.0">
+               <children>
+                  <Button fx:id="acheter" mnemonicParsing="false" onAction="#onEnter" prefHeight="42.0" prefWidth="202.0" text="Acheter" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

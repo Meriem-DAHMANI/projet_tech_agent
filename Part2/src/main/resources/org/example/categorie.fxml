@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.example.Categorie">
+   <bottom>
+      <TreeView prefHeight="127.0" prefWidth="600.0" BorderPane.alignment="CENTER" />
+   </bottom>
+   <right>
+      <VBox prefHeight="273.0" prefWidth="166.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button fx:id="btnPC" layoutX="10.0" layoutY="10.0" mnemonicParsing="false" onAction="#onEnter" prefHeight="150.0" prefWidth="164.0" text="PC" />
+            <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="166.0" text="Button" />
+         </children>
+      </VBox>
+   </right>
+   <left>
+      <Pane prefHeight="273.0" prefWidth="268.0" BorderPane.alignment="CENTER">
+         <children>
+            <ScrollPane layoutY="108.0" prefHeight="165.0" prefWidth="268.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="200.0" prefWidth="200.0" />
+              </content>
+            </ScrollPane>
+            <TextField layoutX="97.0" layoutY="73.0" prefHeight="24.0" prefWidth="75.0" text="PANIER" />
+            <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" text="Voir offre de promotion" />
+         </children>
+      </Pane>
+   </left>
+   <center>
+      <VBox prefHeight="273.0" prefWidth="166.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" onAction="#onEnter" prefHeight="150.0" prefWidth="166.0" text="Button" />
+            <Button mnemonicParsing="false" prefHeight="150.0" prefWidth="166.0" text="Button" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

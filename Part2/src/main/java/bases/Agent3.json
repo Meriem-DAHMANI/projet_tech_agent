@@ -1,11 +1,11 @@
 {
-    "shop_name":"magasin1",
+    "shop_name":"magasin3",
     "ventes":[
         {
             "categorie":"pc",
-            "features_pc":[
+            "pc":[
             {
-                "num_pc":1,
+                "id":1,
                 "marque":"asus",
                 "carte_graphique": "nvidia",
                 "taille_ecran": 15,
@@ -16,7 +16,7 @@
                 "quantity": 1
             },
             {
-                "num_pc":2,
+                "id":2,
                 "marque":"acer",
                 "carte_graphique": "intel",
                 "taille_ecran": 14,
@@ -27,7 +27,7 @@
                 "quantity": 3
             },
             {
-                "num_pc":3,
+                "id":3,
                 "marque":"lenovo",
                 "carte_graphique": "amd",
                 "taille_ecran": 14,
@@ -41,16 +41,16 @@
         },
         {
             "categorie":"carte_graphique",
-            "features_carte_graphique":[
+            "carte_graphique":[
                 {
-                    "num_carte":1,
+                    "id":1,
                     "marque":"intel",
                     "utilisation":["Personnel", "bureau"],
                     "quantity": 3,
                     "prix":5000
                 },
                 {
-                    "num_carte":2,
+                    "id":2,
                     "marque":"amd",
                     "utilisation":["gaming","professionnel", "personnel", "bureau"],
                     "quantity": 2,
@@ -60,16 +60,16 @@
         },
         {
             "categorie":"ram",
-            "features_ram":[
+            "ram":[
                 {
-                    "num_ram":1,
+                    "id":1,
                     "marque": "sHynix",
                     "taille":8,
                     "quantity":2,
                     "prix":7000
                 },
                 {
-                    "num_ram":2,
+                    "id":2,
                     "marque": "sHynix",
                     "taille":16,
                     "quantity":3,
@@ -79,9 +79,9 @@
         },
         {
             "categorie":"disque_dur",
-            "features_disc":[
+            "disque_dur":[
                 {
-                    "num_disque":1,
+                    "id":1,
                     "marque":"Hitachi",
                     "type":"ssd",
                     "taille":512,
@@ -89,7 +89,7 @@
                     "prix":25000
                 },
                 {
-                    "num_disque":2,
+                    "id":2,
                     "marque":"toshiba",
                     "type":"ssd",
                     "taille":225,
