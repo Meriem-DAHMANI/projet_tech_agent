@@ -1,1 +1,3 @@
 # projet_tech_agent
+A university project where we implemented an expert system and a multi-agent system for an e-commerce desktop application. The purpose of the application is to give the best possible experience to the customer and to provide him with the desired product in a reasonable time and for this, we will do the tests on two different systems. In the first part, we will implement an expert system to simulate a sale of computer products, and another simulation of the car example requested in the statement, and in the second part we will work on a multi-agent system that interacts with the customer and provides him with products from different stores.
+
